@@ -1,0 +1,153 @@
+* {
+  font-family: monospace;
+}
+
+.main {
+  background-color: #18213c;
+  padding: 4rem;
+}
+.hero {
+  background-color: #22325f;
+  padding: 6rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+h1 {
+  color: #ff6d00;
+  font-size: 60px;
+  font-weight: 700;
+}
+p {
+  color: #ffffff;
+  font-size: 20px;
+}
+.banner {
+  border-radius: 20px;
+  background: #173da0;
+  padding: 40px 48px;
+  margin-top: 2rem;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.image {
+  width: 498px;
+  height: 516px;
+  background: #691414;
+}
+h3 {
+  color: #ff6d00;
+  font-size: 28px;
+  font-weight: 700;
+}
+h6 {
+  color: #ff6d00;
+  font-size: 20px;
+  font-weight: 700;
+}
+.carosal_images {
+  height: 385px;
+  width: 25%;
+  border-radius: 1rem;
+  background: #d9d9d9;
+  margin-top: 2rem;
+}
+.carosal {
+  display: flex;
+  gap: 12px;
+}
+h2 {
+  color: #ff6d00;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 4rem;
+}
+.card {
+  border-radius: 1rem;
+  background: #ffffff;
+  width: 33.3%;
+  /* height: 671px; */
+  padding: 1rem;
+}
+.card_img {
+  border-radius: 0.5rem;
+  background: #d9d9d9;
+  width: 100;
+  height: 277px;
+}
+.card_cont p {
+  color: #000000;
+  font-size: 16px;
+  text-align: justify;
+}
+h5 {
+  color: #000000;
+  font-size: 28px;
+}
+.card_button {
+  border-radius: 1rem;
+  background: linear-gradient(180deg, #ff6d00 0%, #c37337 100%);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: white;
+  padding: 1rem 0rem;
+}
+
+.card_container {
+  display: flex;
+  gap: 1rem;
+}
+.bnr_btn {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: #c1c1c1;
+  padding: 1.5rem 2.5rem;
+  border: none;
+}
+.active_btn {
+  background-color: #ff6f00;
+}
+.bnr_container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+.indicator {
+  display: flex;
+  margin-top: 1rem;
+  gap: 4px;
+  justify-content: center;
+}
+.circle {
+  width: 17px;
+  height: 17px;
+  background-color: white;
+  border-radius: 50%;
+}
+.circle_active {
+  background-color: #ff6f00;
+}
+.img_banner {
+  height: 347px;
+  background-size: cover;
+  background-image: url(./Asserts/Images/Rectangle\ 26.png);
+  margin-top: 20rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: end;
+  padding-left: 3rem;
+  padding-right: 4rem;
+}
